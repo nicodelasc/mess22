@@ -1,0 +1,52 @@
+.section-about-me {
+	padding: 100px 40px;
+}
+
+.about-me-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #fff;
+	padding: 30px 20px;
+	align-items: center;
+	gap: 1.5rem;
+	box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.basic-data {
+}
+
+.bio-data {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* align-items: center; */
+}
+
+.bio-data .img-box {
+	width: 60%;
+}
+.bio-data .img-box img {
+	width: 163px;
+	height: 167px;
+	border-radius: 10px;
+}
+
+.bio-text-box {
+	width: 100%;
+	align-self: stretch;
+	justify-self: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.skill {
+}
+
+.about-text {
+	align-self: start;
+}
+.about-text p {
+	margin-bottom: 1rem;
+	line-height: 1.5;
+	font-size: 1.2rem;
+}

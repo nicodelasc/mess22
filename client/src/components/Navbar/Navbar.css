@@ -1,0 +1,34 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+}
+.brand:link,
+.brand:active,
+.brand:visited {
+	text-decoration: none;
+	color: #333;
+}
+
+.main-nav-list {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.main-nav-link:link,
+.main-nav-link:active,
+.main-nav-link:visited {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #333;
+}
+
+.main-nav-list a:hover {
+	background-color: #bbb;
+	color: #555;
+}

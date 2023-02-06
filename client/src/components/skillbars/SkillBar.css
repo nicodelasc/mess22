@@ -1,0 +1,12 @@
+.skill-bar {
+	width: 100%;
+	background-color: rgba(160, 160, 240, 0.933);
+	height: 14px;
+	margin: 10px 0;
+}
+
+.skill-bar-per {
+	background-color: blue;
+	color: blue;
+	height: inherit;
+}

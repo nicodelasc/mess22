@@ -1,0 +1,23 @@
+.section-hero {
+	background-color: #ddd;
+	padding: 100px 40px;
+}
+.section-hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 600px;
+	margin: 0 auto;
+}
+
+.text-box {
+	width: 60%;
+}
+
+.description {
+	margin-top: 10px;
+}
+.img-box img {
+	height: 300px;
+}
